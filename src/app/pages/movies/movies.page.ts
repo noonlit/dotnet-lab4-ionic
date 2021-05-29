@@ -15,6 +15,7 @@ export class MoviesPage {
 
   constructor(private apiSvc: ApiService, private router: Router, private dataSvc: DataService) { }
   ionViewWillEnter() {
+    this.dataSvc.movie = null;
     this.loadMovies();
   }
 

@@ -11,7 +11,10 @@ export class Movie {
 }
 
 export enum Genre {
-  Comedy
+  Action,
+  Comedy,
+  Horror,
+  Thriller
 }
 
-export const GENRES = ['Comedy'];
+export const GENRES = ['Action', 'Comedy', 'Horror', 'Thriller'];
